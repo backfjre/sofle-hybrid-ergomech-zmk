@@ -92,7 +92,7 @@
             // |  F1  |  F2  |  F3  |  F4  |  F5  |  F6  |                   |  F7  |  F8  |  F9  |  F10 |  F11 |  F12 |
             // | CAPS | TRAN | TRAN | TRAN | TRAN | TRAN |                   | TRAN | TRAN | TRAN | TRAN | TRAN | TRAN |
             // | TRAN | TRAN | TRAN | TRAN | TRAN | TRAN |                   | TRAN | TRAN | TRAN | TRAN | TRAN | ESC  |
-            // | TRAN | TRAN | TRAN | TRAN | TRAN | TRAN | RGB_TOG  | |      | TRAN | TRAN |  [{  |  ]}  | TRAN | TRAN |
+            // | TRAN | TRAN | TRAN | TRAN | TRAN | TRAN | TRAN  | |      | TRAN | TRAN |  [{  |  ]}  | TRAN | TRAN |
             //               | TRAN | TRAN | TRAN | TRAN | TRAN |  | TRAN | TRAN | TRAN | TRAN | TRAN | TRAN |
 
            bindings = <
@@ -100,8 +100,8 @@
 &kp CAPS   &trans     &trans     &trans     &trans     &trans          &trans     &trans     &trans     &trans     &trans     &trans
 &trans     &trans     &trans     &trans     &trans     &trans          &trans     &trans     &trans     &trans     &trans     &kp ESC
 &trans     &trans     &trans     &trans     &trans     &trans          &trans     &trans     &kp LBKT   &kp RBKT     &trans     &trans
-&rgb_ug RGB_TOG     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans
-                                                               &rgb_ug RGB_EFF  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD
+&trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans
+                                                               &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_SPI  &rgb_ug RGB_EFR  &rgb_ug RGB_SPD
             >;
 
             sensor-bindings = <&mousescroll &inc_dec_kp PG_UP PG_DN>;
