@@ -59,7 +59,7 @@
                                                                &kp ENTER  &kp RIGHT  &kp UP  &kp LEFT  &kp DOWN
             >;
 
-            sensor-bindings = <&mousescroll &inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
 
         lower_layer {
@@ -82,7 +82,7 @@
                                                                 &kp A      &kp B     &kp C      &kp D      &kp E
             >;
 
-            sensor-bindings = <&mousescroll &inc_dec_kp C_VOL_UP C_VOL_DN>;
+			sensor-bindings = <&mousescroll &inc_dec_kp PG_UP PG_DN>;
         };
 
         raise_layer {
@@ -104,7 +104,7 @@
                                                                                   &kp A      &kp B     &kp C     &kp D      &kp E
             >;
 
-            sensor-bindings = <&mousescroll &inc_dec_kp RGB_BRI RGB_BRD>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
 
         adjust_layer {
