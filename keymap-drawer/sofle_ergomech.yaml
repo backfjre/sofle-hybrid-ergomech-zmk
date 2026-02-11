@@ -1,8 +1,8 @@
 layout: {zmk_keyboard: sofle_ergomech}
 layers:
-  default: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', '=', TAB, Q, W, E, R, T, Y, U, I, O, P, '''', LSHFT, A, S, D, F, G, H, J, K, L, ;, ENTER, LCTRL,
-    Z, X, C, V, B, N, M, ',', ., /, \, PLAY PAUSE, LGUI, LALT, lower, BSPC, SPACE, SPACE, DEL, raise, S, C, '&studio_unlock', RIGHT, UP, LEFT, DOWN]
-  lower:
+  fixSC: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', '=', TAB, Q, W, E, R, T, Y, U, I, O, P, '''', LSHFT, A, S, D, F, G, H, J, K, L, ;, ENTER, LCTRL,
+    Z, X, C, V, B, N, M, ',', ., /, \, PLAY PAUSE, LGUI, LALT, num, BSPC, SPACE, SPACE, DEL, function, S, C, '&studio_unlock', RIGHT, UP, LEFT, DOWN]
+  num:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -67,7 +67,7 @@ layers:
   - UP
   - LEFT
   - DOWN
-  raise:
+  function:
   - F1
   - F2
   - F3
