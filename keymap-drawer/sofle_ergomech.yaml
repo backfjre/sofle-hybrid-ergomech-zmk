@@ -54,7 +54,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: '&studio_unlock', type: held}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -192,8 +192,8 @@ layers:
   - {type: held}
   - ''
   - ''
-  - A
-  - B
-  - C
-  - D
-  - E
+  - '&studio_unlock'
+  - RIGHT
+  - UP
+  - LEFT
+  - DOWN
