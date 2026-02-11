@@ -181,7 +181,7 @@ layers:
   - ''
   - ''
   - ''
-  - RGB TOG
+  - '&studio_unlock'
   - ''
   - ''
   - {type: held}
