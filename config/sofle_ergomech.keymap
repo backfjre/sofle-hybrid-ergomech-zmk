@@ -71,18 +71,18 @@
             // | TRAN | TRAN | TRAN | TRAN | TRAN | TRAN |                   |  4   |  5   |  6   | TRAN | TRAN | TRAN |
             // | TRAN | TRAN | TRAN | TRAN | TRAN | TRAN |                   |  1   |  2   |  3   | TRAN | TRAN | TRAN |
             // | TRAN | TRAN | TRAN | TRAN | TRAN | TRAN |   TRAN   | |      | TRAN | TRAN | TRAN | TRAN | TRAN | TRAN |
-            //               | TRAN | TRAN | studio_unlock | TRAN | TRAN |  | TRAN | TRAN | TRAN | TRAN | TRAN | TRAN |
+            //               | TRAN | TRAN | TRAN | TRAN | TRAN |  | TRAN | TRAN | TRAN | TRAN | TRAN | TRAN |
 
            bindings = <
 &trans     &trans     &trans     &trans     &trans     &trans          &trans     &trans     &trans     &trans     &trans     &trans
 &trans     &trans     &trans     &trans     &trans     &trans          &kp N4     &kp N5     &kp N6     &trans     &trans     &trans
 &trans     &trans     &trans     &trans     &trans     &trans          &kp N1     &kp N2     &kp N3     &trans     &trans     &trans
 &trans     &trans     &trans     &trans     &trans     &trans          &trans     &trans     &trans     &trans     &trans     &trans
-&trans     &trans     &trans     &studio_unlock   &trans     &trans     &trans     &trans     &trans     &trans     &trans
+&trans     &trans     &trans     &trans   &trans     &trans     &trans     &trans     &trans     &trans     &trans
                                                                   &studio_unlock &kp RIGHT  &kp UP  &kp LEFT  &kp DOWN
             >;
 
-			sensor-bindings = <&mousescroll &inc_dec_kp PG_UP PG_DN>;
+			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
 
         raise_layer {
@@ -104,7 +104,7 @@
                                                                &rgb_ug RGB_EFF  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&mousescroll &inc_dec_kp PG_UP PG_DN>;
         };
 
         adjust_layer {
@@ -122,7 +122,7 @@
 &none              &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &none            &none            &none            &none  &none  &none  &none  &none  &none
 &none              &none            &none            &none            &none            &none            &none  &none  &none  &none  &none  &none
 &rgb_ug RGB_TOG    &none            &none            &none            &none            &none            &none  &none  &none  &none  &none
-                                                                                                        &kp A  &kp B  &kp C  &kp D  &kp E
+                                                                                                        &studio_unlock  &kp RIGHT  &kp UP  &kp LEFT  &kp DOWN
             >;
         };
     };
