@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: sofle_ergomech}
 layers:
   default: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', '=', TAB, Q, W, E, R, T, Y, U, I, O, P, '''', LSHFT, A, S, D, F, G, H, J, K, L, ;, ENTER, LCTRL,
-    Z, X, C, V, B, N, M, ',', ., /, \, MUTE, LGUI, LALT, LCTRL, lower, RET, SPACE, raise, RCTRL, RALT, RGUI, ENTER, RIGHT, UP, LEFT, DOWN]
+    Z, X, C, V, B, N, M, ',', ., /, \, PLAY PAUSE, LGUI, LALT, lower, BSPC, SPACE, SPACE, DEL, raise, S, C, EP TOG, RIGHT, UP, LEFT, DOWN]
   lower:
   - '&studio_unlock'
   - F1
@@ -54,8 +54,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -123,8 +123,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - A
@@ -184,12 +184,12 @@ layers:
   - RGB TOG
   - ''
   - ''
-  - ''
   - {type: held}
   - ''
   - ''
-  - {type: held}
   - ''
+  - ''
+  - {type: held}
   - ''
   - ''
   - A
