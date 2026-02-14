@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: sofle_ergomech}
 layers:
-  fixSC: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', '=', TAB, Q, W, E, R, T, Y, U, I, O, P, '''', LSHFT, A, S, D, F, G, H, J, K, L, ;, ENTER, LCTRL,
+  fixSC: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', '=', TAB, Q, W, E, R, T, Y, U, I, O, P, ENTER, LSHFT, A, S, D, F, G, H, J, K, L, ;, '''', LCTRL,
     Z, X, C, V, B, N, M, ',', ., /, \, PLAY PAUSE, LGUI, LALT, num, BSPC, SPACE, SPACE, DEL, function, S, C, '&studio_unlock', RIGHT, UP, LEFT, DOWN]
   num:
   - {t: ▽, type: trans}
@@ -91,19 +91,19 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - ESC
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
